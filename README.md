@@ -4,8 +4,8 @@ A futuristic cryptocurrency analytics platform built with Next.js, featuring rea
 
 ## Team Members
 
--  Nora Wang : **norarplm**
--  Athef Ak : **itsathefak**
+- Nora Wang : **norarplm**
+- Athef Ak : **itsathefak**
 
 ## Features
 
@@ -33,37 +33,37 @@ A futuristic cryptocurrency analytics platform built with Next.js, featuring rea
 
 ### Prerequisites
 
-- Node.js 18+ 
+- Node.js 18+
 - npm or yarn
 - CoinGecko API key (free tier available)
 
 ### Installation
 
 1. Clone the repository:
-\`\`\`bash
-git clone https://github.com/yourusername/coinscope.git
-cd coinscope
-\`\`\`
+   \`\`\`bash
+   git clone https://github.com/yourusername/coinscope.git
+   cd coinscope
+   \`\`\`
 
 2. Install dependencies:
-\`\`\`bash
-npm install
-\`\`\`
+   \`\`\`bash
+   npm install
+   \`\`\`
 
 3. Create environment file:
-\`\`\`bash
-cp .env.example .env.local
-\`\`\`
+   \`\`\`bash
+   cp .env.example .env.local
+   \`\`\`
 
 4. Add your CoinGecko API key to `.env.local`:
-\`\`\`env
-COINGECKO_API_KEY=your_api_key_here
-\`\`\`
+   \`\`\`env
+   COINGECKO_API_KEY=your_api_key_here
+   \`\`\`
 
 5. Run the development server:
-\`\`\`bash
-npm run dev
-\`\`\`
+   \`\`\`bash
+   npm run dev
+   \`\`\`
 
 6. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
@@ -71,20 +71,20 @@ npm run dev
 
 \`\`\`
 coinscope/
-├── app/                    # Next.js app directory
-│   ├── api/               # API routes
-│   ├── compare/           # Comparison page
-│   ├── crypto/            # Individual crypto pages
-│   ├── markets/           # Markets listing page
-│   └── globals.css        # Global styles
-├── components/            # React components
-│   ├── crypto/           # Crypto-specific components
-│   ├── layout/           # Layout components
-│   ├── sections/         # Page sections
-│   └── ui/               # Reusable UI components
-├── hooks/                # Custom React hooks
-├── lib/                  # Utility functions
-└── public/               # Static assets
+├── app/ # Next.js app directory
+│ ├── api/ # API routes
+│ ├── compare/ # Comparison page
+│ ├── crypto/ # Individual crypto pages
+│ ├── markets/ # Markets listing page
+│ └── globals.css # Global styles
+├── components/ # React components
+│ ├── crypto/ # Crypto-specific components
+│ ├── layout/ # Layout components
+│ ├── sections/ # Page sections
+│ └── ui/ # Reusable UI components
+├── hooks/ # Custom React hooks
+├── lib/ # Utility functions
+└── public/ # Static assets
 \`\`\`
 
 ## API Routes
@@ -100,36 +100,6 @@ coinscope/
 \`\`\`env
 COINGECKO_API_KEY=your_coingecko_api_key
 \`\`\`
-
-## Deployment
-
-### Vercel (Recommended)
-
-1. Push your code to GitHub
-2. Connect your repository to Vercel
-3. Add your environment variables in Vercel dashboard
-4. Deploy!
-
-### Other Platforms
-
-The app can be deployed to any platform that supports Next.js:
-
-- Netlify
-- Railway
-- DigitalOcean App Platform
-- AWS Amplify
-
-## Contributing
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add some amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgments
 
